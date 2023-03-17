@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="168dp"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:text="Good Work! You Won!"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="-2dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="here is a cute dog as a prize:"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="124dp"
+        app:srcCompat="@drawable/dog"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="249dp" />
+</RelativeLayout>
